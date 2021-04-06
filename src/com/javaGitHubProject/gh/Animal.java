@@ -8,11 +8,16 @@ public class Animal {
 	Animal animal = new Animal();
 	
 	animal.sound();
+	animal.run();
 		
 	}
 	
 	public void sound() {
 		System.out.println("animal calss is executed");
+	}
+	
+	public void run() {
+		System.out.println("Animal are run");
 	}
 
 }
